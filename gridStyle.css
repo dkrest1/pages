@@ -56,3 +56,8 @@ body {
   grid-area: five;
   background-color: blue;
 }
+
+button {
+  color: #fff;
+  margin-top: 3rem;
+}
