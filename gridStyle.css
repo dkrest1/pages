@@ -58,6 +58,14 @@ body {
 }
 
 button {
+  display: block;
   color: #fff;
   margin-top: 3rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
 }
