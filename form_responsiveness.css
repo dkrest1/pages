@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /*1rem = 10px*/
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  place-content: center;
+  place-items: center;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+      to right,
+      rgba(255, 122, 122, 0.75),
+      rgba(255, 122, 122, 0.75)
+    ),
+    url("./form_responsiveness/images/bg-intro-desktop.png");
+  width: 144rem;
+  color: #fff;
+}
+
+.row-1 {
+  margin-right: 5rem;
+  width: 30%;
+}
+
+.row-1__heading {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.row-2__heading {
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.341);
+}
+
+.row-2__form {
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.341);
+}
+
+.row-2__input {
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.row-2__btn {
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  padding: 1.4rem 2rem;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+}
+
+.row-2__input:focus {
+  outline: none !important;
+  border: 2px solid #ff7a7a;
+}
+
+.row-2__term {
+  color: hsl(246, 25%, 77%);
+  margin-top: 1rem;
+}
+
+.row-2__term-color {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    flex-direction: column;
+    font-size: 1.4rem;
+    align-items: center;
+    max-width: 345px;
+    margin: 7rem auto;
+    background: linear-gradient(
+        to right,
+        rgba(255, 122, 122, 0.75),
+        rgba(255, 122, 122, 0.75)
+      ),
+      url("./form_responsiveness/images/bg-intro-mobile.png");
+  }
+
+  .row-1 {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .row-1__text {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .row-1__heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+}

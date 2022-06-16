@@ -19,7 +19,11 @@ body {
   align-content: center;
   align-items: center;
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+nav {
   margin-top: 4rem;
+  text-align: center;
 }
 
 nav .nav-item {
@@ -115,11 +119,16 @@ nav .nav-item {
   .container {
     width: 37.5rem;
     flex-direction: column;
+    justify-items: center;
   }
 
   .col-1,
   .col-2,
   .col-3 {
     flex-basis: 25rem;
+  }
+
+  nav .nav-item .nav-link {
+    font-size: 1rem;
   }
 }
