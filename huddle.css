@@ -27,6 +27,11 @@ header {
   margin-bottom: 6rem;
 }
 
+.header-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -149,6 +154,7 @@ main {
 .section-4 button {
   background-color: hsl(322, 100%, 66%);
   margin-top: 3rem;
+  color: #fff;
 }
 
 footer {
