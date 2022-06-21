@@ -25,18 +25,6 @@ body {
   color: #fff;
 }
 
-.nav-item {
-  list-style: none;
-  margin-bottom: 30px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #fff;
-  background-color: hsl(154, 59%, 51%);
-  padding: 10px 20px;
-  border-radius: 10px;
-}
 .row-1 {
   margin-right: 5rem;
   width: 30%;
@@ -111,12 +99,6 @@ body {
         rgba(255, 122, 122, 0.75)
       ),
       url("./form_responsiveness/images/bg-intro-mobile.png");
-  }
-
-  .nav-item {
-    list-style: none;
-    margin-bottom: 30px;
-    text-align: center;
   }
 
   .row-1 {
